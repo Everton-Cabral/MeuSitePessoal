@@ -6,10 +6,13 @@ body {
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
 }
+
+
+
 .header-wrapper {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(-45deg, #BA55D3, #A020F0, #8B008B, #4B0082);
+    background: linear-gradient(-45deg, #363636, #363636, #808080, 	#000000);
     background-size: 400% 400%;
     display: flex;
     flex-direction: column;
@@ -47,7 +50,7 @@ h2{
 }
 
 a:hover{
-    color: #9370DB;
+    color: #363636;
     background-color: #ffffff;
 }
 
@@ -143,7 +146,7 @@ a:hover{
 
 .menu-items ul li a {
     margin: 10px 0;
-    color: #A020F0;
+    color: #363636;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -154,7 +157,7 @@ a:hover{
 
 #toggle:checked + .checkbox .trace:nth-child(1){
     transform: rotate(45deg);
-    background-color: #4B0082;
+    background-color: #363636;
     top: 47px;
 }
 
@@ -167,7 +170,7 @@ a:hover{
 
 #toggle:checked + .checkbox .trace:nth-child(3){
     transform: rotate(-45deg);
-    background-color: #4B0082;
+    background-color: #363636;
     top: 48px;
 }
 
@@ -210,17 +213,26 @@ a:hover{
     height: 300px;
     width: 400px;
     margin: 3rem 0 0 0;
-    background-image: url(imagens/foto1.jpg);
+  
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: grayscale(0.5);
+    filter: grayscale(0.8);
     color: #ffffff;
     cursor: pointer;
     transition: 0.3s;
+}
+#c1 {
+    background-image: url(imagens/foto1.jpg);
+}
+#c2 {
+    background-image: url(imagens/foto2.jpg);
+}
+#c3{
+    background-image: url(imagens/foto3.jpg)
 }
 .card-text{
     width: 40%;
@@ -230,6 +242,10 @@ a:hover{
 
 }
 
+#titulo {
+    letter-spacing: 1px;
+}
+
 .card-wrapper {
     text-align: center;
     display: flex;
@@ -237,6 +253,7 @@ a:hover{
     justify-content: center;
     align-items: center;
     position: relative;
+    
 }
 
 .card-wrapper::before{
@@ -290,7 +307,7 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #A020F0;
+    background-color: #363636;
 }
 
 /*RESPONSVO*/
