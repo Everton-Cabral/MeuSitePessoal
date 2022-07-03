@@ -130,7 +130,7 @@ a:hover{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 99vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,6 +138,7 @@ a:hover{
     opacity: 0;
     visibility: hidden;
     transition: 400ms ease-in-out 0s;
+   
 }
 
 .menu-items ul {
@@ -313,6 +314,7 @@ a:hover{
     justify-content: center;
     align-items: center;
     background-color: #363636;
+    padding: 2%;
 }
 
 /*RESPONSVO*/
